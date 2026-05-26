@@ -1,0 +1,34 @@
+# Architecture
+
+Renderer
+├── code
+│   ├── assets
+│   │   ├── models
+│   │   └── textures
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   ├── core
+│   │   │   ├── SDL
+│   │   │   └── vulkan
+│   │   ├── engine
+│   │   │   ├── events
+│   │   │   ├── gfx
+│   │   │   └── window
+│   │   └── utils
+│   ├── libs
+│   ├── shaders
+│   │   ├── compute
+│   │   ├── fragment
+│   │   └── vertex
+│   └── src
+│       ├── core
+│       │   ├── SDL
+│       │   └── vulkan
+│       ├── engine
+│       │   ├── events
+│       │   ├── gfx
+│       │   └── window
+│       └── utils
+├── images
+├── LICENSE
+└── README.md
