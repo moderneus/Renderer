@@ -1,6 +1,7 @@
-#include <iostream>
+import print;
 
 int main()
 {
-	std::cout << "Hello Renderer!\n";
+	print::print_hello();
+	print::print_bye();
 }
